@@ -33,6 +33,8 @@ export default function AppointmentManager() {
   const [isSaving, setIsSaving] = useState(false);
   const [deleteId, setDeleteId] = useState(null);
 
+  const [selectedDate, setSelectedDate] = useState(null);
+
   const [newEvent, setNewEvent] = useState({
     title: "",
     email: "",
